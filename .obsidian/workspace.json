@@ -11,10 +11,12 @@
             "id": "59ac77ef773c0cf2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "video",
+              "state": {
+                "file": "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "CFDagent__AI_for_Your_Personal_Wind_Tunnel"
             }
           }
         ]
