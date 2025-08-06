@@ -49,8 +49,8 @@ Cryptography)](https://www.khanacademy.org/computing/computer-science/cryptograp
 
 ## 📚 7. Bonus – Math for Data Science Playlist
 
-- [ ] [Khan Academy - Statistics & Machine Learning Playlist
-(YouTube)](https://www.youtube.com/playlist?list=PLAwxTw4SYaPnMwH3ZdeU2wJYp-63tTz7p)
+- [ ] [DataTab - Statistics for Data Science (via youtube)](https://www.youtube.com/watch?v=Ym1iH8-GQOE&t=91s)
+
 
 ---
 
