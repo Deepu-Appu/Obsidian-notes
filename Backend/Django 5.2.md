@@ -424,7 +424,7 @@ clear the `database url` in the `env`.
 
 Then create a variable in django for the postgres-prod database →
 
-![[/image 1.png|image 1.png]]
+![[image 1.png|image 1.png]]
 
 In the `VARIABLE_NAME` → `DATABASE_URL` check the drop down you will see the database url of the `database-prod`
 

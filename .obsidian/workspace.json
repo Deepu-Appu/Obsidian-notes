@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-08-05.md",
+                "file": "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-05"
+              "title": "Linear Regression and Ridge Regression"
             }
           }
         ]
@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of 2025-08-05"
             }
+          },
+          {
+            "id": "8051662569ae46e8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,35 +177,37 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "59ac77ef773c0cf2",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
-    "notes",
+    "Machine_learning/images/image 5.png",
+    "Machine_learning/images/image 4.png",
+    "Machine_learning/images/image 3.png",
+    "Machine_learning/images/image 2.png",
+    "1N1-K-A43_98pYZ27fnupDA-scaled.jpeg",
+    "2025-08-05.md",
+    "Machine_learning/images/image 1.png",
     "Machine_learning/images/image.png",
+    "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
+    "Machine_learning/images",
+    "Notion",
+    "Untitled.md",
+    "notes",
     "Machine_learning/Regression",
     "Machine_learning/images",
     "Machine_learning/images/image 1 2.png",
     "Machine_learning/images/image 2.png",
-    "Machine_learning/images/image 2 2.png",
     "Backend/Django 5.2.md",
-    "image 3.png",
-    "image 2.png",
-    "image 1.png",
     "Roadmap/Data_Science_Roadmap_Checklist.md",
-    "2025-08-05.md",
-    "1N1-K-A43_98pYZ27fnupDA-scaled.jpeg",
     "Machine_learning",
     "Untitled",
     "Roadmap",
     "Welcome.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "image 5.png",
-    "image 4.png",
     "Notion/Machine Learning Model/Supervised And Unsupervised Machine Learning Model/Supervised And Unsupervised Machine Learning Model.md",
     "Notion/Machine Learning Model/RidgeCV - RidgeClassifierCV.md",
     "Notion/Machine Learning Model/Ridge Classification.md",
@@ -210,10 +222,8 @@
     "Notion/Machine Learning Model/Linear Regression and Ridge Regression/Linear Regression and Ridge Regression.md",
     "Notion/Machine Learning Model/Linear Regression and Ridge Regression",
     "Notion/Machine Learning Model/Supervised And Unsupervised Machine Learning Model",
-    "Notion/Machine Learning Model",
     "Notion/Machine Learning Model.md",
     "Django_Setup_Guide.md",
-    "Notion/Django 5.2.md",
-    "Backend"
+    "Notion/Django 5.2.md"
   ]
 }
