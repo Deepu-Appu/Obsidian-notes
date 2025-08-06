@@ -11,12 +11,10 @@
             "id": "59ac77ef773c0cf2",
             "type": "leaf",
             "state": {
-              "type": "video",
-              "state": {
-                "file": "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4"
-              },
-              "icon": "lucide-file",
-              "title": "CFDagent__AI_for_Your_Personal_Wind_Tunnel"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -181,9 +179,9 @@
   },
   "active": "59ac77ef773c0cf2",
   "lastOpenFiles": [
+    "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4",
     "AI_researchpaper/Smart-editor/SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery).m4a",
     "Notion/Ridge Classification.md",
-    "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4",
     "AI_researchpaper/trae_agent/Trae_Agent__The_AI_That_Fixes_Its_Own_Code.mp4",
     "AI_researchpaper/trae_agent/Trae_Agent__AI_s_Breakthrough_in_Autonomous_Bug_Fixing_and_Software_Issue_Resolution.m4a",
     "AI_researchpaper/trae_agent",
