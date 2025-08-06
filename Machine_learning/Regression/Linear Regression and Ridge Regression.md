@@ -619,38 +619,34 @@ plt.show()
 
 Each line in the charts shows one **feature’s coefficient**.
 
-> ==ax.set_xscale("log")==  
-> Make the x-axis (alpha values) logarithmic scale, not linear.  
+ ==ax.set_xscale("log")==  
+ Make the x-axis (alpha values) logarithmic scale, not linear.  
 
 - Beacuse ==alphas== go from very small (like $10^{-10}$) to larger values (like $10^{-2}$).
 - A log scale spread them out **better** for visualization.
 
-> ==ax.set_xlim(ax.get_xlim()[::-1])  
->   
-> ====This reverses the x-axis.==
+ ==ax.set_xlim(ax.get_xlim()[::-1])  
+ ====This reverses the x-axis.
 
 So the plot starts with **small alphas on the right** and **large** on the right and large alphas on the left — this is a common style in regularization plots, showing:
 
 - Left = **strong penalty (coefficients shrink)**
 - Right = **no penalty** (coefficients grow wild)
 
-> ==plt.xlabel("alpha")  
->   
-> ====Label the x-axis as “====**alpha**====” (the regularization strength)==
+ ==plt.xlabel("alpha")  ==
+ Label the x-axis as “**alpha**” (the regularization strength)
 
-> ==plt.ylabel("weights")  
->   
-> ====Label the y-axis as “====**weight” —**== ==the Ridge model’s coefficients==
+==plt.ylabel("weights")  
+ ====Label the y-axis as “**weight” —** the Ridge model’s coefficients
 
-> ==plt.title("Ridge Coefficients vs Regularization Strength (alpha)")  
->   
-> ====Add a title to the plot to explain what it’s showing==
+ ==plt.title("Ridge Coefficients vs Regularization Strength (alpha)")     
+ ====Add a title to the plot to explain what it’s showing
 
-> ==plt.axis("tight")==  
-> Automictically adjust the plot to fit everything snugly (no extra space)  
+ ==plt.axis("tight")==  
+ Automictically adjust the plot to fit everything snugly (no extra space)  
 
-> ==plt.legend([...])==  
-> Add a **legend** showing which line is which feature.
+ ==plt.legend([...])==  
+ Add a **legend** showing which line is which feature.
 
 This part:
 
