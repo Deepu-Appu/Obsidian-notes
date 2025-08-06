@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/RidgeCV - RidgeClassifierCV.md",
+                "file": "Notion/RidgeCV - RidgeClassifierCv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RidgeCV - RidgeClassifierCV"
+              "title": "RidgeCV - RidgeClassifierCv"
             }
           }
         ]
@@ -181,7 +181,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "59ac77ef773c0cf2",
+  "active": "8051662569ae46e8",
   "lastOpenFiles": [
     "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4",
     "AI_researchpaper/Smart-editor/SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery).m4a",
@@ -203,7 +203,7 @@
     "image 1 2.png",
     "image 1.png",
     "2025-08-05.md",
-    "Notion/RidgeCV - RidgeClassifierCV.md",
+    "Notion/RidgeCV - RidgeClassifierCv.md",
     "Roadmap/Machine-learning-roadmap.md",
     "Notion/Machine Learning Model/RidgeCV - RidgeClassifierCV.md",
     "Notion/Machine Learning Model/Ridge Classification.md",
