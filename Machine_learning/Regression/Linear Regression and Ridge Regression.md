@@ -1,3 +1,4 @@
+
 ## ==Introduction==
 
 Linear Regression is a [Supervised machine learning algorithm](https://www.notion.so/Supervised-And-Unsupervised-Machine-Learning-Model-1f479bd9bdc08062871fd01b0adeae6a?pvs=21) where the predicted output is continuous and has a constant slope. Its used to predict values within a continuous range, (e.g. sales, price) rather than trying to classify them into categories(e.g. cat, dog)
