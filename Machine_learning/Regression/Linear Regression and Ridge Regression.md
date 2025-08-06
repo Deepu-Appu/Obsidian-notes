@@ -234,18 +234,18 @@ X = X[:, [2]] # Use only one feature
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=20, shuffle=False)
 ```
 
-### ==**Linear regression model**==
+### ==Linear regression model==
 
-**we create a linear regression model and fit it on the training data. Note that by default, an intercept is added to the model. We can control this behavior by setting the** ==**fit_intercept**== **.**
+we create a linear regression model and fit it on the training data. Note that by default, an intercept is added to the model. We can control this behavior by setting the ==**fit_intercept**== **.**
 
 ```Python
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression().fit(X_train, y_train)
 ```
 
-### ==**Model evaluation**==
+### ==Model evaluation==
 
-**We evaluate the model's performance on the test set using the mean squared error and the coefficient of determination.**
+We evaluate the model's performance on the test set using the mean squared error and the coefficient of determination.
 
 ```undefined
 from sklearn.metrics import mean_squared_error, r2_score
@@ -258,9 +258,9 @@ print(f"Coefficient of determination:{r2_score(y_test, y_pred):.2f}")
 Mean squared error: 2548.07  
 Coefficient of determination:0.47  
 
-### ==**Plotting the results**==
+### ==Plotting the results==
 
-**Finally, we visualize the results on the train and test data.**
+Finally, we visualize the results on the train and test data.
 
 ```Python
 import matplotlib.pyplot as plt
@@ -293,9 +293,9 @@ plt.show()
 
 ![[image 2.png|image 2.png]]
 
-**OLS on this single-feature subset learn a linear function that function that minimizes the mean squared error on the training data. We can see how well (or poorly) it generalize by looking at the R^2 Score and mean squared error on the test set. In higher dimensions, pure OLS often overfits, especially if the data is noisy. Regularization techniques (like Ridge or Lasso) can help reduce that.**
+OLS on this single-feature subset learn a linear function that function that minimizes the mean squared error on the training data. We can see how well (or poorly) it generalize by looking at the R^2 Score and mean squared error on the test set. In higher dimensions, pure OLS often overfits, especially if the data is noisy. Regularization techniques (like Ridge or Lasso) can help reduce that.
 
-### ==**Ordinary Least Squares and Ridge Regression Variance**==
+### ==Ordinary Least Squares and Ridge Regression Variance==
 
 We sample only two data points, then repeatedly add small Gaussian noise to them and refit both OLS and Ridge. We sample only two data points, then repeatedly add small Gaussian noise to them and refit both OLS and Ridge. We plot each new line to see how much OLS can jump around, whereas Ridge remains more stable thanks to its penalty term.
 
@@ -321,7 +321,7 @@ X_test = np.c_[0,2].T
 
 ### `X_test` is for prediction from 0 to 2 — the line you want to draw.  
   
-==Create Two Models==
+### ==Create Two Models==
 
 ```Python
 classifier = dict(
@@ -370,7 +370,7 @@ you:
 ✅ This simulates **what happens if your data isn’t perfect**.  
   
 
-### ==**Final Clean Fit**==
+### ==Final Clean Fit==
 
 ```Python
 clf.fit(X_train, y_train)
@@ -409,8 +409,7 @@ plt.show()
 |Medium (e.g. `1`)|Moderate penalty → more shrinkage||
 |Large (e.g. `10`, `100`)|Strong penalty → more simplification, may **underfit**||
 
-###   
-🔍 ==How to Choose the Best== ==`alpha`====?==
+###   🔍 ==How to Choose the Best== `alpha` ==?==
 
 ```Python
 from sklearn.linear_model import RidgeCV
@@ -425,7 +424,7 @@ print("Best alpha:", ridge_cv.alpha_)
 This will train the model using different alpha values and choose the one that works best on validation sets.  
   
 
-### 🧠 ==what's a== ==**solver**====?==
+### 🧠 ==what's a solver?==
 
 When Ridge regression is training a model, it needs to do some math to find the best line (i.e., best coefficients).
 
@@ -434,7 +433,7 @@ A solver is just the method or algorithm it uses to do that math.
 There are several solvers available, and some are faster or better depending on your data.  
   
 
-### ==What does== ==`solver="auto"`== ==mean?==
+### ==What does== `solver="auto"` ==mean?==
 
 If you don’t know which solver to choose (and most people don’t need to!), you can just write:
 
@@ -485,10 +484,7 @@ So you don’t have to worry about the math engine — Ridge handles it.
 |‘cholesky’|The input array X is not sparse.|
 |‘sparse_cg’|None of the above conditions are fulfilled.|
 
-###   
-🧠 ==**Understanding Collinearity and Ridge Regression (In Simple Terms)**==
-
-  
+###   🧠 ==Understanding Collinearity and Ridge Regression (In Simple Terms)==
 
 In this example, we are showing how **Ridge Regression** helps when some features (columns) in your data are **too similar** to each other — a problem called **collinearity**.
 
@@ -499,11 +495,10 @@ Ridge Regression fixes this by adding a penalty when the model tries to assign l
 we can control how this penalty is using a value called alpha (α):
 
 - If **alpha is small**:
-    
-    ➤ The penalty is light, and the model behaves like normal linear regression. But this can make the coefficients **unstable**
-    
 
-### ==**Plot Ridge coefficients as a function of the regularization**==
+    ➤ The penalty is light, and the model behaves like normal linear regression. But this can make the coefficients **unstable**
+
+### ==Plot Ridge coefficients as a function of the regularization==
 
 we want to see how the Ridge Regression coefficients changes as we adjust the penalty value ( ==alpha== ).
 
@@ -536,7 +531,7 @@ This just creates a target/output ==y====:==
 [1.0,1.0,1.0,..,1.0]
 ```
 
-So every input row of the matrix ==X== ==is mapped to the same output== ==1.0====.==
+So every input row of the matrix ==X is mapped to the same output 1.0==
 
 ```Python
 n_alphas = 200
@@ -551,23 +546,23 @@ for a in alphas:
 
 > We want to try 200 different alpha values (penalty strengths)
 
-Think of ==alpha== ==as a== ==**knob**== ==that controls how much the model avoids big weights.==  
+Think of ==alpha as a **knob** that controls how much the model avoids big weights.==  
   
 
-> ✅ What is ==`np.logspace()`==?  
-> ==`np.logspace()`== ==is a Numpy function used to create numbers that are evenly== ==**spaced on a log scale**== ==(logarithmic scale)====`np.logspace(start, stop, num)`====  
-> Example:  
->   
-> ====`np.logspace(-2, 2, 5)`====  
-> This means:  
-> give 5 numbers from  
-> ====$10^{-2}$== ==to== ==$10^{2}$====  
->   
-> ====output:  
->   
-> ====`array([ 0.01, 0.1, 1.0, 10.0, 100.0 ])`==
+### ✅ What is ==`np.logspace()`==?  
 
-==`alphas = np.logspace(-10, -2, n_alphas)`==
+==`np.logspace()`== ==is a Numpy function used to create numbers that are evenly== ==**spaced on a log scale**== ==(logarithmic scale)====`np.logspace(start, stop, num)`====  
+ Example:  
+   
+ ====`np.logspace(-2, 2, 5)`====  
+ This means:  
+ give 5 numbers from  
+ ====$10^{-2}$== `to` ==$10^{2}$====  
+   
+ ==output==:
+array([ 0.01, 0.1, 1.0, 10.0, 100.0 ])`
+
+`alphas = np.logspace(-10, -2, n_alphas)`
 
 > Create 200 values of alpha between $10^{-10}$ and $10^{-2}$, **spaced logarithmically**
 
@@ -578,12 +573,12 @@ so:
 
 This range is good for testing how sensitive the model is:
 
-> ==🛠️== ==`ridge = linear_model.Ridge(alpha=a, fit_intercept=False)`====  
->   
-> ====Create a Ridge Regression model using the current alpha.==
+### ==🛠️ `ridge = linear_model.Ridge(alpha=a, fit_intercept=False)`==
+   
+   Create a Ridge Regression model using the current alpha.
 
-- ==alpha=a== ==: Set the penalty to the current value==
-- ==fit_intercept=False== : We don’t want the model to learn an intercept (bias); we’re only testing coefficient shrinkage.
+- `alpha=a` : Set the penalty to the current value
+- `fit_intercept=False`: We don’t want the model to learn an intercept (bias); we’re only testing coefficient shrinkage.
 
 ### ==Display results==
 
@@ -603,54 +598,48 @@ plt.legend(
 plt.show()
 ```
 
-> ==ax = plt.gca()  
->   
-> ====gca → “Get Current Axes”====  
->   
-> ====Get the current plot “axis” (canvas where we draw the chart).  
-> You can now customized or add things to it using  
-> ====ax== ==.==
+ `ax = plt.gca()  
+   
+ gca → “Get Current Axes”  
+ Get the current plot “axis” (canvas where we draw the chart).  
+ You can now customized or add things to it using ax .
 
-> ==ax.plot(alphas, coefs)==  
-> Plot how each **coefficient** (weight) changes as you change ==alpha==.
+ ==ax.plot(alphas, coefs)==  
+ Plot how each **coefficient** (weight) changes as you change `alpha`.
 
-- ==alphas== ==: The x-axis — different values of the penalty.==
-- ==coefs== : The y-axis — the corresponding model weight for each feature.
+- `alphas` : The x-axis — different values of the penalty.
+- `coefs` : The y-axis — the corresponding model weight for each feature.
 
 Each line in the charts shows one **feature’s coefficient**.
 
-> ==ax.set_xscale("log")==  
-> Make the x-axis (alpha values) logarithmic scale, not linear.  
+ ==ax.set_xscale("log")==  
+ Make the x-axis (alpha values) logarithmic scale, not linear.  
 
-- Beacuse ==alphas== go from very small (like $10^{-10}$) to larger values (like $10^{-2}$).
+- Beacuse `alphas` go from very small (like $10^{-10}$) to larger values (like $10^{-2}$).
 - A log scale spread them out **better** for visualization.
 
-> ==ax.set_xlim(ax.get_xlim()[::-1])  
->   
-> ====This reverses the x-axis.==
+ ==ax.set_xlim(ax.get_xlim()[::-1])  
+ ====This reverses the x-axis.
 
 So the plot starts with **small alphas on the right** and **large** on the right and large alphas on the left — this is a common style in regularization plots, showing:
 
 - Left = **strong penalty (coefficients shrink)**
 - Right = **no penalty** (coefficients grow wild)
 
-> ==plt.xlabel("alpha")  
->   
-> ====Label the x-axis as “====**alpha**====” (the regularization strength)==
+ ==plt.xlabel("alpha")  ==
+ Label the x-axis as “**alpha**” (the regularization strength)
 
-> ==plt.ylabel("weights")  
->   
-> ====Label the y-axis as “====**weight” —**== ==the Ridge model’s coefficients==
+==plt.ylabel("weights")  
+ ====Label the y-axis as “**weight” —** the Ridge model’s coefficients
 
-> ==plt.title("Ridge Coefficients vs Regularization Strength (alpha)")  
->   
-> ====Add a title to the plot to explain what it’s showing==
+ ==plt.title("Ridge Coefficients vs Regularization Strength (alpha)")     
+ ====Add a title to the plot to explain what it’s showing
 
-> ==plt.axis("tight")==  
-> Automictically adjust the plot to fit everything snugly (no extra space)  
+ ==plt.axis("tight")==  
+ Automictically adjust the plot to fit everything snugly (no extra space)  
 
-> ==plt.legend([...])==  
-> Add a **legend** showing which line is which feature.
+ ==plt.legend([...])==  
+ Add a **legend** showing which line is which feature.
 
 This part:
 
