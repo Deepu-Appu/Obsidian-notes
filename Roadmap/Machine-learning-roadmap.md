@@ -8,8 +8,7 @@ _Source: [scikit-learn documentation](https://scikit-learn.org/stable/)_
 ### 📌 Classification
 - [ ] [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
 - [ ] [Decision Trees](https://scikit-learn.org/stable/modules/tree.html#classification)
-- [ ] [Random Forest
-Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [ ] [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 - [ ] [Gradient Boosting (HistGB, etc.)](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
 - [ ] [Support Vector Machines (SVM)](https://scikit-learn.org/stable/modules/svm.html)
 - [ ] [Logistic Regression](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
@@ -18,8 +17,7 @@ Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.R
 ### 📌 Regression
 - [ ] [Linear Regression](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares)
 - [ ] [Gradient Boosting Regressor](https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting)
-- [ ] [Random Forest
-Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+- [ ] [Random Forest Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
 - [ ] [Gaussian Process Regression](https://scikit-learn.org/stable/modules/gaussian_process.html)
 - [ ] [KNN Regression](https://scikit-learn.org/stable/modules/neighbors.html#regression)
 
@@ -29,8 +27,7 @@ Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.Ra
 
 ### 📌 Clustering
 - [ ] [K-Means](https://scikit-learn.org/stable/modules/clustering.html#k-means)
-- [ ] [Agglomerative Clustering
-(Hierarchical)](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering)
+- [ ] [Agglomerative Clustering (Hierarchical)](https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering)
 - [ ] [DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
 - [ ] [Gaussian Mixture Models (GMM)](https://scikit-learn.org/stable/modules/mixture.html)
 - [ ] [Spectral Clustering](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering)
@@ -44,8 +41,7 @@ Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.Ra
 ---
 
 ## 🧠 3. Neural Networks (Basic Integration)
-- [ ] [MLP Classifier / Regressor (Multi-layer
-Perceptrons)](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
+- [ ] [MLP Classifier / Regressor (Multi-layer Perceptrons)](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
 
 ---
 
