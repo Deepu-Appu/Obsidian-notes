@@ -11,10 +11,14 @@
             "id": "cf9b893e06c377e1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear Regression and Ridge Regression"
             }
           }
         ]
@@ -161,6 +165,9 @@
   },
   "active": "cf9b893e06c377e1",
   "lastOpenFiles": [
+    "/Roadmap/maths-for-datascience.md",
+    "Roadmap/maths-for-datascience.md",
+    "/Roadmap",
     "/Machine_learning/Regression/Linear Regression and Ridge Regression.md",
     "/Machine_learning/Regression",
     "/Machine_learning",
