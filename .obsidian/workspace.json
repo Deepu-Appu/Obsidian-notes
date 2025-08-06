@@ -11,10 +11,12 @@
             "id": "59ac77ef773c0cf2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "audio",
+              "state": {
+                "file": "AI_researchpaper/Smart-editor/SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery).m4a"
+              },
+              "icon": "lucide-file-audio",
+              "title": "SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery)"
             }
           }
         ]
