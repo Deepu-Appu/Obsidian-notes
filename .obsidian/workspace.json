@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/maths-for-datascience.md",
+                "file": "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "maths-for-datascience"
+              "title": "Linear Regression and Ridge Regression"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "db6172c52cacdb36",
@@ -185,8 +184,11 @@
   },
   "active": "59ac77ef773c0cf2",
   "lastOpenFiles": [
-    "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
+    "Roadmap/numpy-pandas-matplotlib.md",
     "Roadmap/maths-for-datascience.md",
+    "Roadmap/Machine-learning-roadmap.md",
+    "Untitled.md",
+    "Machine_learning/Regression/Linear Regression and Ridge Regression.md",
     "HTML import",
     "Machine_learning/images/image 5.png",
     "Machine_learning/images/image 4.png",
@@ -198,7 +200,6 @@
     "Machine_learning/images/image.png",
     "Machine_learning/images",
     "Notion",
-    "Untitled.md",
     "notes",
     "Machine_learning/Regression",
     "Machine_learning/images",
