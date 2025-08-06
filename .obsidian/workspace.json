@@ -166,9 +166,7 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-importer:Open Importer": false,
-      "markdown-importer:Open format converter": false,
-      "templater-obsidian:Templater": false
+      "markdown-importer:Open format converter": false
     }
   },
   "active": "59ac77ef773c0cf2",
