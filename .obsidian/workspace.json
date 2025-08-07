@@ -150,9 +150,19 @@
               "icon": "lucide-list",
               "title": "Outline of RidgeCV - RidgeClassifierCv"
             }
+          },
+          {
+            "id": "9ec607dbd1b5dee3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,7 +181,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c9b8c2288dbba67d",
+  "active": "9ec607dbd1b5dee3",
   "lastOpenFiles": [
     "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4",
     "AI_researchpaper/Smart-editor/SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery).m4a",
