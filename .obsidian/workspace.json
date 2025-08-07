@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2025-08-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "2025-08-05"
             }
           }
         ],
@@ -197,8 +197,8 @@
   },
   "active": "195c75a9df464bf3",
   "lastOpenFiles": [
-    "Welcome.md",
     "conflict-files-obsidian-git.md",
+    "Welcome.md",
     "Roadmap/numpy-pandas-matplotlib.md",
     "Roadmap/maths-for-datascience.md",
     "Roadmap/Machine-learning-roadmap.md",
