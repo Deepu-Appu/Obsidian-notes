@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +198,9 @@
   },
   "active": "195c75a9df464bf3",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Welcome.md",
+    "2025-08-05.md",
+    "conflict-files-obsidian-git.md",
     "Roadmap/numpy-pandas-matplotlib.md",
     "Roadmap/maths-for-datascience.md",
     "Roadmap/Machine-learning-roadmap.md",
@@ -219,7 +221,6 @@
     "Machine_learning",
     "Backend/Django 5.2.md",
     "Backend",
-    "2025-08-05.md",
     "Obsidian-notes/Backend/Django 5.2.md",
     "iCloudDrive/iCloud~AsheKube~Carnets/welcome/Welcome to Carnets.ipynb",
     "iCloudDrive/iCloud~AsheKube~Carnets/welcome/unlockFolder.png",
