@@ -142,27 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-08-05.md",
+                "file": "Notion/RidgeCV - RidgeClassifierCv.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-08-05"
-            }
-          },
-          {
-            "id": "8051662569ae46e8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of RidgeCV - RidgeClassifierCv"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,7 +171,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "8051662569ae46e8",
+  "active": "c9b8c2288dbba67d",
   "lastOpenFiles": [
     "AI_researchpaper/CFDagent/CFDagent__AI_for_Your_Personal_Wind_Tunnel.mp4",
     "AI_researchpaper/Smart-editor/SMART-Editor__The_AI_That__Understands__Design_(and_its_ArXiv_Mystery).m4a",
