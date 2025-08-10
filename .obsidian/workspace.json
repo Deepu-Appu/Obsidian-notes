@@ -11,12 +11,14 @@
             "id": "b20db591e11c092b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Machine_learning/Regression/lasso/NotebookLM Mind Map (1).png"
+                "file": "Python/100_days_of_python_checklist.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "NotebookLM Mind Map (1)"
+              "icon": "lucide-file",
+              "title": "100_days_of_python_checklist"
             }
           }
         ]
@@ -164,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,17 +183,21 @@
   },
   "active": "b20db591e11c092b",
   "lastOpenFiles": [
-    "Roadmap/Machine-learning-roadmap.md",
-    "Machine_learning/Regression/lasso/Lasso.md",
+    "Python/Day-8 of Python.md",
+    "Python/100_days_of_python_checklist.md",
     "Python/Day-9 of Python.md",
+    "Python/Day-8 of Python(1).md",
+    "Python/Day-9 of Python(15).md",
+    "Python/Day-9 of Python(17).md",
+    "Machine_learning/Regression/lasso/Lasso.md",
+    "Machine_learning/Regression/lasso/NotebookLM Mind Map (1).png",
+    "Roadmap/Machine-learning-roadmap.md",
     "Machine_learning/Regression/lasso",
     "Machine_learning/Regression/New folder",
-    "Python/Day-8 of Python.md",
     "2025-08-05.md",
     "Python/Day-8 of Python(12).md",
     "Python/Day-8 of Python(4).md",
     "Python/Day-8 of Python(2).md",
-    "Python/Day-8 of Python(1).md",
     "Python",
     "Machine_learning/Regression/Lasso.md",
     "Notion",
@@ -219,13 +226,9 @@
     "iCloudDrive/iCloud~AsheKube~Carnets/welcome/unlockFolder.png",
     "iCloudDrive/iCloud~AsheKube~Carnets/welcome/top.png",
     "iCloudDrive/iCloud~AsheKube~Carnets/welcome/browse.png",
-    "iCloudDrive/iCloud~AsheKube~Carnets/welcome/bottom_iphone.png",
     "Notion/Machine Learning Model/RidgeCV - RidgeClassifierCV.md",
     "Notion/Machine Learning Model/Ridge Classification.md",
     "Notion/Machine Learning Model/Logistic Regression.md",
-    "Notion/Machine Learning Model/Naive Bayes.md",
-    "Notion/Machine Learning Model/Lasso.md",
-    "Notion/Machine Learning Model/Linear Regression and Ridge Regression/Linear Regression and Ridge Regression.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

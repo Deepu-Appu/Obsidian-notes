@@ -24,7 +24,7 @@ Imagine you want to **rebuild an image (like an X-ray)**, but only have a few bl
 
 $\min_{w} { \frac{1}{2n_{\text{samples}}} ||X w - y||_2 ^ 2 + \alpha ||w||_1}$
 
-### ==📌 1.== ==**Prediction Error Term:**==
+### ==📌 1.== ==Prediction Error Term:==
 
 This is the objective function that **Lasso Regression** tries to minimize. It has two parts:
 
@@ -34,12 +34,12 @@ This is the objective function that **Lasso Regression** tries to minimize. It h
 - ==$||Xw - y||^2$== ==means== ==**squared error**==
 - The ==1/(2n)== ==part is just for mathematical convenience (averaging over all samples)==
 
-### 📌 ==2.== ==**Penalty Term (L1 regularization):**==
+### 📌 ==2.== ==Penalty Term (L1 regularization):==
 
 $\alpha \left\lVert w \right\rVert_1$
 
-- ==$\left\lVert w \right\rVert_1$== ==means the== ==**sum of absolute values of the coefficients**====.==
-- ==$a$== ==is a regularization parameter (a positive number you choose).==
+- ==$\left\lVert w \right\rVert_1$== means the **sum of absolute values of the coefficients**.
+- ==$a$== is a **regularization parameter** (a positive number you choose).
     
     It controls **how much penalty** you want to apply
     
@@ -90,7 +90,7 @@ Imagine you’re trying to find the lowest point in a valley (i.e., **minimize a
 - Applies a soft **thresholding rule** (pushes small weights toward zero),
 - Efficiently finds a **sparse solution** — many weights become **exactly zero**, which is the **key feature of lasso**.
 
-### ==**Compressive sensing: tomography reconstruction with L1 prior (Lasso)**==
+### ==Compressive sensing: tomography reconstruction with L1 prior (Lasso)==
 
 we’re trying to **rebuild a picture** (like a black-and-white X-ray) — but instead of seeing the whole picture at once, you only get a **few shadowy slices** taken from different angles.
 
@@ -106,7 +106,7 @@ But in real life:
 - So we want to **reconstruct the image from as few projections** as possible  
     
 
-### 🧠 ==The Smart Trick:== ==**Sparsity & Compressive Sensing**==
+### 🧠 ==The Smart Trick:== ==Sparsity & Compressive Sensing==
 
 - Many images (especially medical or scientific ones) have lots **of empty space or flat regions**.
 - Only the **edge or boundaries of** objects have meaningful information
