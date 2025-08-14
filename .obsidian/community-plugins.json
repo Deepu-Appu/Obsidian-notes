@@ -1,7 +1,7 @@
 [
   "colored-text",
-  "obsidian-git",
   "obsidian-importer",
   "obsidian-style-settings",
-  "obsidian-text-format"
+  "obsidian-text-format",
+  "obsidian-git"
 ]
